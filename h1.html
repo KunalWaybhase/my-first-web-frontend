@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Boxes</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.contain {
+    display: flex;
+justify-content: space-around; /* Adjusts space between boxes */
+    align-items: center; /* Vertically centers the boxes */
+    height: 100vh; /* Full viewport height */
+    margin: 10px;
+}
+
+.box {
+    width: 300px; /* Width of each box */
+    height: 300px; /* Height of each box */
+    border: 1px solid rgb(173, 152, 47);; /* Border style */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    margin: 0 10px;
+   
+}
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>
